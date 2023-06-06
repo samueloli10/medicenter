@@ -271,14 +271,37 @@ footer .widget_body_address{
 footer .widget_body_number{
     margin-right: 20px;
 }
+footer .widget_body_posts{
+    padding: 0px;
+}
 footer .widget_body_post{
     margin-bottom: 20px;
-    color: #ffffff;
-    list-style-type: circle;
-    list-style-position: inside;
-
+}
+footer .widget_body_post a{
+    text-decoration: none;
+}
+footer .widget_body_post img{
+    width: 15px;
+    margin-right: 10px;
 }
 footer .widget_body_post_time{
     margin-top: 5px;
-    color: #0079c7;
+    font-weight: bold;
 }
+footer .widget_body_tweets{
+    margin-bottom: 20px;
+}
+footer .widget_body_tweets a{
+    text-decoration: none;
+    color: #5c5c5c;
+}
+footer .widget_body_tweets img{
+    width: 15px;
+    margin-right: 10px;
+}
+
+footer .widget_body_tweets_time{
+    margin-top: 5px;
+    color: #0079c7;
+    font-weight: bold;
+} 
